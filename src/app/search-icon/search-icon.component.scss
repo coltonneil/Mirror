@@ -1,0 +1,8 @@
+@import '../../scss/variables';
+@import '../../scss/mixins';
+
+.search-icon{
+    &:hover {
+        cursor: pointer;
+    }
+}

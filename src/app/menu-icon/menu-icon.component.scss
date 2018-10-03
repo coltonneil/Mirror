@@ -1,0 +1,9 @@
+@import '../../scss/variables';
+@import '../../scss/mixins';
+
+.menu-icon{
+    margin-left: 15px;
+}
+.menu-icon-bars{
+    fill: $mirror-white;
+}

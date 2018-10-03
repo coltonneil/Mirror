@@ -1,0 +1,8 @@
+@import '../../scss/variables';
+@import '../../scss/mixins';
+
+.mobile-header{
+    width: 100%;
+    height: 47px;
+    background-color: $mirror-dark-grey;
+}
