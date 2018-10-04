@@ -12,4 +12,8 @@ export class SearchIconComponent implements OnInit {
   ngOnInit() {
   }
 
+  toggleSearch() {
+    console.log('clicked');
+  }
+
 }
