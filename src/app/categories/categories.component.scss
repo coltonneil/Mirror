@@ -1,0 +1,23 @@
+@import '../../scss/variables';
+@import '../../scss/mixins';
+
+div.categories{
+    display: inline-block;
+    position: relative;
+    line-height: 125px;
+    vertical-align: bottom;
+    width: 55%;
+}
+
+div.category {
+    display: inline-block;
+    font-size: 18px;
+    margin-right: 102px;
+    color: $mirror-dark-grey;
+    &:first-child {
+        margin-left: 87px;
+    }
+    &:hover{
+        cursor: pointer;
+    }
+}

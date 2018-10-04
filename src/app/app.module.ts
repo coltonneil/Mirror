@@ -10,6 +10,7 @@ import { AccountIconComponent } from './account-icon/account-icon.component';
 import { CartIconComponent } from './cart-icon/cart-icon.component';
 import { MobileHeaderComponent } from './mobile-header/mobile-header.component';
 import { HeaderIconsComponent } from './header-icons/header-icons.component';
+import { CategoriesComponent } from './categories/categories.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { HeaderIconsComponent } from './header-icons/header-icons.component';
     AccountIconComponent,
     CartIconComponent,
     MobileHeaderComponent,
-    HeaderIconsComponent
+    HeaderIconsComponent,
+    CategoriesComponent
   ],
   imports: [
     BrowserModule
