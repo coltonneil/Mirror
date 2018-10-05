@@ -11,6 +11,7 @@ import { CartIconComponent } from './cart-icon/cart-icon.component';
 import { MobileHeaderComponent } from './mobile-header/mobile-header.component';
 import { HeaderIconsComponent } from './header-icons/header-icons.component';
 import { CategoriesComponent } from './categories/categories.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { CategoriesComponent } from './categories/categories.component';
     CartIconComponent,
     MobileHeaderComponent,
     HeaderIconsComponent,
-    CategoriesComponent
+    CategoriesComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule

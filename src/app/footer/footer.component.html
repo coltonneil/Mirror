@@ -1,0 +1,11 @@
+<div class="footer">
+  <div class="footerLinks">
+    <div class="footerLinksSection" *ngFor="let section of footerLinks">
+      <div class="header">{{section.name}}</div>
+      <div class="footerLink" *ngFor="let link of section.links">
+        <div class="link">{{link.name}}</div>
+      </div>
+    </div>
+  </div>
+  <app-footer-icons></app-footer-icons>
+</div>
