@@ -2,7 +2,10 @@
 @import '../../scss/mixins';
 
 .header{
-    width: 100%;
+    position: absolute;
     height: 125px;
+    top: 0;
+    left: 0;
+    right: 0;
     background-color: $mirror-white;
 }
