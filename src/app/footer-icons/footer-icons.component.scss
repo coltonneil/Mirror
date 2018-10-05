@@ -1,0 +1,11 @@
+@import '../../scss/variables';
+@import '../../scss/mixins';
+
+.footer-icons{
+    display: inline-block;
+    svg{
+        width: 70px;
+        height: 70px;
+        margin-right: 29px;
+    }
+}

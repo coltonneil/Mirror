@@ -12,6 +12,7 @@ import { MobileHeaderComponent } from './mobile-header/mobile-header.component';
 import { HeaderIconsComponent } from './header-icons/header-icons.component';
 import { CategoriesComponent } from './categories/categories.component';
 import { FooterComponent } from './footer/footer.component';
+import { FooterIconsComponent } from './footer-icons/footer-icons.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { FooterComponent } from './footer/footer.component';
     HeaderIconsComponent,
     CategoriesComponent,
     FooterComponent,
+    FooterIconsComponent
   ],
   imports: [
     BrowserModule
