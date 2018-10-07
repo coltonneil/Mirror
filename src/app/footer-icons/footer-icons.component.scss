@@ -3,9 +3,27 @@
 
 .footer-icons{
     display: inline-block;
-    svg{
-        width: 70px;
-        height: 70px;
-        margin-right: 29px;
+}
+
+.icon-container{
+    display: inline-block;
+    background: $mirror-pink;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px 0 #00000080;
+    transition: all .225s;
+    margin-right: 29px;
+    svg-icon{
+        width: 40px;
+        height: 40px;
+        margin: 15px;
+        fill:#fff;
+        
+    }
+    &:hover{
+        cursor: pointer;
+        box-shadow: 0 4px 8px 0 #00000080;
+
     }
 }

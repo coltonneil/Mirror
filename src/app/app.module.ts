@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
+import { AngularSvgIconModule } from 'angular-svg-icon';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -30,7 +32,9 @@ import { FooterIconsComponent } from './footer-icons/footer-icons.component';
     FooterIconsComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule, 
+    AngularSvgIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]

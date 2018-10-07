@@ -1,12 +1,10 @@
 @import '../../scss/variables';
 @import '../../scss/mixins';
 
-
-.header-icons {
-  margin-right: 4%;
-  width: 14%;
+.header-icons{
   display: inline-block;
-  position: relative;
-  line-height: 100px;
-  vertical-align: bottom;
+  width: 17%;
+  position: absolute;
+  margin-top: 45px;
 }
+
