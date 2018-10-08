@@ -1,7 +1,7 @@
 @import '../../scss/variables';
 @import '../../scss/mixins';
 
-div.categories{
+div.category-links{
     display: inline-block;
     position: relative;
     line-height: 125px;
@@ -9,7 +9,7 @@ div.categories{
     width: 55%;
 }
 
-div.category {
+div.category-link {
     display: inline-block;
     font-size: 18px;
     margin-right: 102px;

@@ -1,0 +1,5 @@
+<div class="category-links">
+  <div routerLink="/category/{{category.id}}" class="category-link" *ngFor="let category of categories" (click)="onSelect(category.id)">
+    <span>{{category.name}}</span>
+  </div>
+</div>

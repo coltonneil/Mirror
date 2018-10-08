@@ -3,11 +3,11 @@ import { Category } from './category';
 import { CATEGORIES } from './data-categories';
 
 @Component({
-  selector: 'app-categories',
-  templateUrl: './categories.component.html',
-  styleUrls: ['./categories.component.scss']
+  selector: 'app-category-link',
+  templateUrl: './category-link.component.html',
+  styleUrls: ['./category-link.component.scss']
 })
-export class CategoriesComponent implements OnInit {
+export class CategoryLinkComponent implements OnInit {
 
   categories = CATEGORIES;
 

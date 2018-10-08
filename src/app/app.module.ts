@@ -12,9 +12,13 @@ import { AccountIconComponent } from './account-icon/account-icon.component';
 import { CartIconComponent } from './cart-icon/cart-icon.component';
 import { MobileHeaderComponent } from './mobile-header/mobile-header.component';
 import { HeaderIconsComponent } from './header-icons/header-icons.component';
-import { CategoriesComponent } from './categories/categories.component';
+import { CategoryLinkComponent } from './category-link/category-link.component';
 import { FooterComponent } from './footer/footer.component';
 import { FooterIconsComponent } from './footer-icons/footer-icons.component';
+import { AppRoutingModule } from './app-routing.module';
+import { ContentComponent } from './content/content.component';
+import { HomeComponent } from './home/home.component';
+import { CategoryPageComponent } from './category-page/category-page.component';
 
 @NgModule({
   declarations: [
@@ -27,14 +31,17 @@ import { FooterIconsComponent } from './footer-icons/footer-icons.component';
     CartIconComponent,
     MobileHeaderComponent,
     HeaderIconsComponent,
-    CategoriesComponent,
+    CategoryLinkComponent,
     FooterComponent,
-    FooterIconsComponent
+    FooterIconsComponent,
+    ContentComponent,
+    HomeComponent,
+    CategoryPageComponent
   ],
   imports: [
     BrowserModule,
-    HttpClientModule, 
-    AngularSvgIconModule
+    HttpClientModule,
+    AngularSvgIconModule, AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
