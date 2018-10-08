@@ -1,23 +1,34 @@
 @import '../../scss/variables';
 @import '../../scss/mixins';
 
-.brand-container{
+.brand-container {
     position: relative;
     display: inline-block;
     max-width: 199px;
     width: 21%;
     height: 52%;
-    margin: 42px 0 17px 7%;
+    margin: 42px 0 17px 76px;
     text-align: center;
 }
 
-.logo{
+.logo {
     width: 100%;
-    height: 42px;
-    color: white;
-    vertical-align: middle;
+    height: auto;
 }
+
 .tagline{
     font-size: 14px;
-    margin-top: 4px;
+}
+
+@media screen and (max-width: $break-small-tablet) {
+    .brand-container {
+        margin-left: 16px;
+    }
+
+}
+
+@media screen and (max-width: $break-large-handset) {
+    .tagline{
+        display: none;
+    }
 }

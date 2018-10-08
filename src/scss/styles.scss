@@ -6,14 +6,3 @@ body{
     margin: 0;
 }
 
-@media screen and (min-width: $break-mobile+1) {
-    .mobile-header{
-        display: none;
-    }
-}
-
-@media screen and (max-width: $break-mobile) {
-    .header{
-        display: none;
-    }
-}

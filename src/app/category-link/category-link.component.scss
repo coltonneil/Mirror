@@ -3,10 +3,8 @@
 
 div.category-links{
     display: inline-block;
-    position: relative;
-    line-height: 125px;
-    vertical-align: bottom;
-    width: 55%;
+    position: absolute;
+    margin: 52px 0;
 }
 
 div.category-link {
@@ -19,5 +17,13 @@ div.category-link {
     }
     &:hover{
         cursor: pointer;
+    }
+}
+@media screen and (max-width: $break-large-tablet) {
+    div.category-link {
+        margin-right: 51px; 
+        &:first-child {
+            margin-left: 51px;
+        }
     }
 }

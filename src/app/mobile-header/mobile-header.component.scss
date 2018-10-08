@@ -6,3 +6,9 @@
     height: 47px;
     background-color: $mirror-dark-grey;
 }
+
+@media screen and (min-width: $break-large-handset + 1) {
+    .mobile-header{
+        display: none;
+    }
+}

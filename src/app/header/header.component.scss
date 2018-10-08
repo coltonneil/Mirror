@@ -9,3 +9,9 @@
     right: 0;
     background-color: $mirror-white;
 }
+
+@media screen and (max-width: $break-large-handset) {
+    .header{
+        display: none;
+    }
+}
