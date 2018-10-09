@@ -19,6 +19,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { ContentComponent } from './content/content.component';
 import { HomeComponent } from './home/home.component';
 import { CategoryPageComponent } from './category-page/category-page.component';
+import { BannerComponent } from './banner/banner.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { CategoryPageComponent } from './category-page/category-page.component';
     FooterIconsComponent,
     ContentComponent,
     HomeComponent,
-    CategoryPageComponent
+    CategoryPageComponent,
+    BannerComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,28 @@
+@import '../../scss/variables';
+@import '../../scss/mixins';
+
+.banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  height: 60px;
+  background-color: $mirror-yellow;
+  text-align: center;
+}
+
+.featured-event {
+  font-size: 18px;
+  color: $mirror-dark-grey;
+  line-height: 60px;
+  vertical-align: 50%;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
