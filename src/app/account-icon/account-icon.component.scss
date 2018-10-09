@@ -1,18 +1,25 @@
 @import '../../scss/variables';
 @import '../../scss/mixins';
 
-.icon-container{
-    display: inline-block;
-    position: relative;
-    width: 28px;
-    height: 28px;
-    margin-right: 25px;
-    svg-icon{
-        width: 100%;
-        height: 100%;
-        fill:$mirror-dark-grey;;
-    }
-    &:hover{
-        cursor: pointer;
-    }
+.icon-container {
+  display: inline-block;
+  position: relative;
+  width: 28px;
+  height: 28px;
+  margin-right: 25px;
+
+  svg-icon {
+    width: 100%;
+    height: 100%;
+    fill: $mirror-dark-grey;
+    ;
   }
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}

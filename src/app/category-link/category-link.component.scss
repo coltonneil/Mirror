@@ -1,29 +1,37 @@
 @import '../../scss/variables';
 @import '../../scss/mixins';
 
-div.category-links{
-    display: inline-block;
-    position: absolute;
-    margin: 52px 0;
+div.category-links {
+  display: inline-block;
+  position: absolute;
+  margin: 52px 0;
 }
 
 div.category-link {
-    display: inline-block;
-    font-size: 18px;
-    margin-right: 102px;
-    color: $mirror-dark-grey;
-    &:first-child {
-        margin-left: 87px;
-    }
-    &:hover{
-        cursor: pointer;
-    }
+  display: inline-block;
+  font-size: 18px;
+  margin-right: 102px;
+  color: $mirror-dark-grey;
+
+  &:first-child {
+    margin-left: 87px;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:focus {
+    outline: none;
+  }
 }
+
 @media screen and (max-width: $break-large-tablet) {
-    div.category-link {
-        margin-right: 51px; 
-        &:first-child {
-            margin-left: 51px;
-        }
+  div.category-link {
+    margin-right: 51px;
+
+    &:first-child {
+      margin-left: 51px;
     }
+  }
 }

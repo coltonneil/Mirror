@@ -1,17 +1,17 @@
 @import '../../scss/variables';
 @import '../../scss/mixins';
 
-.header{
-    position: absolute;
-    height: 125px;
-    top: 0;
-    left: 0;
-    right: 0;
-    background-color: $mirror-white;
+.header {
+  position: absolute;
+  height: 125px;
+  top: 60px;
+  left: 0;
+  right: 0;
+  background-color: $mirror-white;
 }
 
 @media screen and (max-width: $break-large-handset) {
-    .header{
-        display: none;
-    }
+  .header {
+    display: none;
+  }
 }

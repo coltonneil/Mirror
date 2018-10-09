@@ -2,33 +2,44 @@
 @import '../../scss/mixins';
 
 .brand-container {
-    position: relative;
-    display: inline-block;
-    max-width: 199px;
-    width: 21%;
-    height: 52%;
-    margin: 42px 0 17px 76px;
-    text-align: center;
+  position: relative;
+  display: inline-block;
+  max-width: 199px;
+  width: 21%;
+  height: 52%;
+  margin: 42px 0 17px 76px;
+  text-align: center;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
 }
 
 .logo {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
+
+
 }
 
-.tagline{
-    font-size: 14px;
+.tagline {
+  font-size: 14px;
 }
 
 @media screen and (max-width: $break-small-tablet) {
-    .brand-container {
-        margin-left: 16px;
-    }
+  .brand-container {
+    margin-left: 16px;
+  }
 
 }
 
 @media screen and (max-width: $break-large-handset) {
-    .tagline{
-        display: none;
-    }
+  .tagline {
+    display: none;
+  }
 }
