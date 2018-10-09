@@ -9,14 +9,14 @@ import { BannerService } from './banner.service';
 })
 export class BannerComponent implements OnInit {
 
-  banner: Banner[];
+  banner: Banner;
 
   constructor(private bannerService: BannerService) { }
 
   ngOnInit() {
     this.getBanner();
-    console.log(this.banner);
   }
+
   getBanner(): void {
     this.bannerService.getBanner()
       .subscribe(banner => this.banner = banner);
