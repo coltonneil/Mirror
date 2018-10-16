@@ -20,6 +20,7 @@ import { ContentComponent } from './content/content.component';
 import { HomeComponent } from './home/home.component';
 import { CategoryPageComponent } from './category-page/category-page.component';
 import { BannerComponent } from './banner/banner.component';
+import { FooterLinksComponent } from './footer-links/footer-links.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { BannerComponent } from './banner/banner.component';
     ContentComponent,
     HomeComponent,
     CategoryPageComponent,
-    BannerComponent
+    BannerComponent,
+    FooterLinksComponent
   ],
   imports: [
     BrowserModule,
